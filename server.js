@@ -4,7 +4,7 @@ const app = express()
 const morgan = require('morgan')
 const config = require("config")
 const cors = require('cors')
-const PORT = 4001
+const PORT = process.env.PORT || 4001
 
 const db = require("./db");
 const movieRouter = require("./routes/movie.router");
