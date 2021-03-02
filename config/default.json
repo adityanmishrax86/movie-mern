@@ -1,3 +1,3 @@
 {
-    "DBHost": "mongodb://127.0.0.1/movies"
+    "DBHost": "mongodb+srv://azax25547:Ready2go@clusterbackend.pixfu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
